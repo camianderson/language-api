@@ -1,0 +1,8 @@
+# fly.toml file generated for cami-languages on 2023-04-05T18:26:48-04:00
+
+app = "cami-languages"
+kill_timeout = 0
+primary_region = "lax"
+
+[build]
+  image = "camianderson/languagesapi:latest"
